@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debiasing AI Tutors | PhD Research Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cultural Bias in AI Tutors: A Demo</h1>
+        <p>Experience the difference between a standard AI and one with a debiasing framework.</p>
+    </header>
+
+    <main>
+        <section class="demo-controls">
+            <label for="promptSelect">Choose a prompt:</label>
+            <select id="promptSelect">
+                <option value="Explain the concept of 'individualism'.">Prompt: Individualism</option>
+                <option value="Explain the concept of 'collectivism'.">Prompt: Collectivism</option>
+                <option value="Who are the most important philosophers?">Prompt: Important Philosophers</option>
+                <option value="What makes a good leader?">Prompt: Leadership Qualities</option>
+            </select>
+            <div class="button-group">
+                <button id="runStandard">Run Standard AI</button>
+                <button id="runDebias">Run Debias Framework</button>
+            </div>
+        </section>
+
+        <section class="demo-output">
+            <div class="response-panel">
+                <h2>Standard AI Response</h2>
+                <div id="standardResponse" class="response-box"><p>Response will appear here...</p></div>
+            </div>
+            <div class="response-panel">
+                <h2>Debiased AI Response</h2>
+                <div id="debiasResponse" class="response-box"><p>Response will appear here...</p></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Part of a PhD Research Proposal on Critical AIED</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
