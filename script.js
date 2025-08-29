@@ -1,4 +1,4 @@
-
+// 重要：本地开发时，后端运行在 http://localhost:5001
 const API_BASE_URL = 'https://phd-ai-demo-api-git-main-zhuofan-leis-projects.vercel.app';
 
 document.getElementById('runStandard').addEventListener('click', () => runDemo('standard'));
